@@ -21,7 +21,7 @@ body {
 .navbar {
     position: relative;
     padding: 0.5rem; /* "root em" relative unit b/c width of letter "m" */
-    background-color: rgb(101,18,95,0.5); /* 4th value is opacity 0 invisible - 1 opaque */
+    background-color: rgba(101,18,95,0.5); /* 4th value is opacity 0 invisible - 1 opaque */
     z-index: 1;
 }
 

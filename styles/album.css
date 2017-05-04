@@ -4,6 +4,7 @@ body.album {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    padding-bottom: 200px;
 }
 
 .album-cover-art {
@@ -67,8 +68,7 @@ body.album {
      color: rgb(210, 40, 123);
      border-radius: 50% 50%;
      display: inline-block;
-     width: 28px;
-     height: 28px;
+     padding: 7px;
  }
  
  .album-song-button:hover {
@@ -78,7 +78,9 @@ body.album {
  }
  
  .album-song-button span {
-     line-height: 28px;
+     display: inline-block;
+     width:14px;
+     height:14px;
  }
 
 @media (max-width: 640px) and (min-width: 320px) {

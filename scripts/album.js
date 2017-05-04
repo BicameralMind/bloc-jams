@@ -170,7 +170,7 @@ var currentlyPlayingSong = null;
              // #2
              if (songItemNumber !== currentlyPlayingSong) {
                  songItem.innerHTML = songItemNumber;
-             }
+             } 
          });
          
          songRows[i].addEventListener('click', function(event) {
